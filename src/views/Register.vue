@@ -72,7 +72,7 @@
           if (valid) {
             // 验证通过
             this.request.post('/register', this.user).then(res => {
-              if (res.code === '1') {
+              if (res.code == '1') {
                 this.$router.push('/login')
                 this.$message.success('注册成功')
               } else {
