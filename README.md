@@ -24,4 +24,4 @@ npm run lint
 See [Configuration Reference](https://cli.vuejs.org/config/).
 
 
-这是一个vue的前端登录页面
+这是一个vue的前端登录注册的页面代码，其中集成了验证码
